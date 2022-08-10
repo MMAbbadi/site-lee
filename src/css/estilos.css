@@ -1,0 +1,146 @@
+header{
+
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    color: aliceblue;
+    background-color: black;
+
+
+}
+
+.logo{
+
+    border-radius: 50px;
+}
+
+.seta{
+
+    border-radius: 50px;
+
+}
+
+.lista-cinema{
+
+    background-image:linear-gradient(black 0%,transparent 10%, black 100%), url(../imagens/fundo1.jpg);
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.btn-voltar{
+
+    transform: rotate(180deg);
+
+}
+
+.carrossel{
+
+    width: 1080px;
+    height: 860px;
+    position: relative;
+
+}
+
+.titulo-tela{
+
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.tela{
+
+    color:aliceblue;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.tela.selecionada{
+
+    opacity: 1;
+    z-index: 1;
+
+}
+
+.setas{
+
+    border-radius: 50px;
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.setas:hover{
+
+    background-color: blueviolet;
+
+}
+
+.titulo-extra{
+
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.descricao{
+
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.pc-config{
+
+    height: 120px;
+
+    background-image: linear-gradient(black 0%, transparent 30%, black 100%), url(../imagens/fundo2.jpg);
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+
+}
+
+
+.personal-info{
+
+    height: 120px;
+
+    background-image: linear-gradient(black 0%,transparent 50%, black 100%), url(../imagens/fundo3.png);
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redes-sociais{
+
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    background: black;
+
+}
+
+.insta-logo{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+}
